@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "../node_modules/nes.css/css/nes.css";
+
+:root {
+  font-family: "Press Start 2P", serif;
+}
+
+.pokemons_list_grid {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;
+  gap: 8px;
+}
