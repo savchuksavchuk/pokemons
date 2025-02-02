@@ -13,7 +13,7 @@ export const Search = ({ searchValue, debounce = 500, onChange }) => {
   }, [value]);
 
   return (
-    <div class="nes-field">
+    <div className="nes-field">
       <input
         type="text"
         className="nes-input w-full max-w-[360px]"

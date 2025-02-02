@@ -5,7 +5,6 @@ import classNames from "classnames";
 export const BattleAction = () => {
   const { onAttack, game } = useGame();
   const { user } = useAuth();
-  console.log(game);
 
   const yourTurn = game.currentTurn === user._id;
 
